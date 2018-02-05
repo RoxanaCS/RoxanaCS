@@ -8,3 +8,5 @@
 + #FEC301 (amarillo)
 
 ![PaletaColores](/assets/img/Colores.png)
+
+![Diseño](/assets/img/PortafolioDiagram.png)
