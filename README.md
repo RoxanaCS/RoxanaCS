@@ -9,4 +9,6 @@
 
 ![PaletaColores](/assets/img/Colores.png)
 
+## Diagrama de diseño
+
 ![Diseño](/assets/img/PortafolioDiagram.png)
