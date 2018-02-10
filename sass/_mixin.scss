@@ -1,0 +1,5 @@
+@mixin excel() {
+  color: $color_text_p;
+  text-align: $text_center;
+  line-height: 30px; //se puede poner un valor especial si no lo vamos a usar mucho, si no hacemos variables
+}

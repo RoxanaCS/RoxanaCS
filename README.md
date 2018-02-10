@@ -7,8 +7,8 @@
 + #FFFFFF (blanco)
 + #FEC301 (amarillo)
 
-![PaletaColores](/assets/img/Colores.png)
+![PaletaColores](/img/Colores.png)
 
 ## Diagrama de diseño
 
-![Diseño](/assets/img/PortafolioDiagram.png)
+![Diseño](/img/PortafolioDiagram.png)
