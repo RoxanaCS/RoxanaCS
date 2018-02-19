@@ -1,0 +1,60 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #0AA0A0;
+  color: #FFFF;
+}
+.navbar{
+  background-color: #0AA0A0;
+  border-color: #0AA0A0;
+}
+.navbar-right .nav li a{
+  color: #FFFF;
+}
+/*#home {
+  background-color: #0AA0A0;
+}
+#home_2{
+  background-color: #CCCC;
+}
+#home_3{
+  background-color: #FEC301;
+}
+#home_4{
+  background-color: #03C5C5;
+
+}
+#home_5{
+  background-color: #363636;
+}*/
+.titleHome{
+  color: white;
+  padding-top: 3em;
+  font-size: 4em;
+}
+.subtitle {
+  color: white;
+  padding-bottom: 4em;
+  font-size: 2em;
+}
+.btn-info{
+  background-color: inherit;
+  border: 1px solid #ffff;
+}
+.glyphicon-info-sign{
+  color: #ffff;
+}
+.description{
+  width: 60%;
+}
+.boxAbout{
+  margin-top: 6em;
+}
+button{
+  margin-top: -2em;
+}
+#git{
+  margin-left: 33em;
+}
+.work{
+  background-image: url(img\brain.jpg);
+}
