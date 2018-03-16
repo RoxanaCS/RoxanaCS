@@ -7,13 +7,19 @@
     <title>RCares</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/style7.css" />
   </head>
   <body>
+    <!--<section class="inicio">-->
       <header>
         <nav class="navbar navbar-default">
-          <div class="container-fluid">
+          <div class="container-fluid container-first-section">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -34,7 +40,6 @@
               </ul>
             </div><!-- /.navbar-collapse -->
           </div>
-
         </nav>
       </header>
       <div id="sketch-js">
@@ -50,50 +55,61 @@
           <!-- Carousel items -->
           <div class="carousel-inner">
             <div id="home" class="active item">
-              <h1 class="titleHome text-center">HI, IM ROXANA</h1>
+              <h1 class="titleHome text-center"><span class="jiterry">HI, IM ROXANA!</span></h1>
               <p class="text-center subtitle">I'm a Junior Front End Developer and Scientist.</p>
               <button id="moreAbout" type="button" class="btn-info btn btn-sm center-block">
-                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> More info
+                <span class="ion ion-android-hand" aria-hidden="true"></span> See more
               </button>
             </div>
             <div id="home_2" class="item">
               <h1 class="titleHome text-center">I LOVE CODE</h1>
               <p class="text-center subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <button id="moreCode" type="button" class="btn-info btn btn-sm center-block">
-                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> More info
+                <span class="ion ion-code" aria-hidden="true"></span> See more
               </button>
             </div>
             <div id="home_3" class="item">
               <h1 class="titleHome text-center">I LOVE SCIENCE</h1>
               <p class="text-center subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <button id="moreScience" type="button" class="btn-info btn btn-sm center-block">
-                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> More info
+                <span class="ion ion-ios-flask-outline" aria-hidden="true"></span> See more
               </button>
             </div>
             <div id="home_4" class="item">
               <h1 class="titleHome text-center">I KNOW SOME THINGS</h1>
               <p class="text-center subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <button id="moreSkills" type="button" class="btn-info btn btn-sm center-block">
-                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> More info
+                <span class="ion ion-wrench" aria-hidden="true"></span>See more
               </button>
             </div>
             <div id="home_5" class="item">
                 <h1 class="titleHome text-center">LET'S TALK!</h1>
                 <p class="text-center subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <button id="moreCont" type="button" class="btn-info btn btn-sm center-block">Contact me</button>
+                <button id="moreCont" type="button" class="btn-info btn btn-sm center-block">
+                  <span class="ion ion-person-add" aria-hidden="true"></span>Contact me
+                </button>
             </div>
           </div>
         </div>
       </div>
+    <!--</section>-->
       <div class="container about">
         <div class="row boxAbout">
-          <div class="col-md-3 col-md-offset-1">
-            <img class="myPhoto img-circle" src="img\a1.jpg" alt="Mi foto">
+          <div class="col-md-3 col-md-offset-2">
+            <img class="center-block myPhoto img-circle" src="img\a1.jpg" alt="Mi foto">
           </div>
-          <div class="col-md-6 col-md-offset-2">
-            <h2 class="titleAbout">About me</h2>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="img\cvRCares.pdf" target="_blank" class="btn btn-default"><span class="glyphicon glyphicon-download"></span> Download my CV</a>
+          <div class="col-md-6 col-md-offset-1">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="titleAbout">About me</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-xs-offset-3 col-xs-6">
+                  <a href="img\cvRCares.pdf" target="_blank" class="btn btn-about"><span class="glyphicon glyphicon-download"></span> Download my CV</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -130,7 +146,43 @@
       </div>
       <div class="container work">
         <div class="row">
-
+          <section class="main">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item">
+                  <div class="ch-info">
+                    <div class="ch-info-front ch-img-1"></div>
+                    <div class="ch-info-back">
+                      <h3>Mouse</h3>
+                      <p>by Alexander Shumihin <a href="http://drbl.in/eAoj">View on Dribbble</a></p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="ch-item">
+                  <div class="ch-info">
+                    <div class="ch-info-front ch-img-2"></div>
+                    <div class="ch-info-back">
+                      <h3>You</h3>
+                      <p>by Zoe Ingram <a href="http://drbl.in/eCcV">View on Dribbble</a></p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="ch-item">
+                  <div class="ch-info">
+                    <div class="ch-info-front ch-img-3"></div>
+                    <div class="ch-info-back">
+                      <h3>Love</h3>
+                      <p>by Eileen Tjan <a href="http://drbl.in/ewTL">View on Dribbble</a></p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
         </div>
       </div>
       <div class="container contact">
@@ -143,7 +195,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <a href="https://github.com/RoxanaCS" target="_blank"><i class="icon ion-social-github"></i></a>
-            <a href="#" target="_blank"><i class="icon ion-email"></i></a>
+            <a href="mailto:roxana.cares@ug.uchile.cl?Subject=Contact" target="_blank"><i class="icon ion-email"></i></a>
             <a href="https://www.linkedin.com/in/roxcares" target="_blank"><i class="icon ion-social-linkedin"></i></a>
           </div>
         </div>
