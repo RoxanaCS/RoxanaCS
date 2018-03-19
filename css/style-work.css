@@ -40,7 +40,7 @@
 }
 
 .ch-info .ch-info-front {
-	box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 0 13px rgba(0,0,0,0.3);
 }
 
 .ch-info .ch-info-back {
@@ -53,38 +53,69 @@
 	opacity: 0;
 }
 
-.ch-img-1 { 
-	background-image: url(../images/19.jpg);
+.ch-img-1 {
+	background-image: url(../img/trivia.png);
+  background-size: 100%;
+  background-size: cover;
 }
 
-.ch-img-2 { 
-	background-image: url(../images/20.jpg);
+.ch-img-2 {
+	background-image: url(../img/geo.png);
+  background-size: 100%;
+  background-size: cover;
 }
 
-.ch-img-3 { 
-	background-image: url(../images/21.jpg);
+.ch-img-3 {
+	background-image: url(../img/cardify.png);
+  background-size: 100%;
+  background-size: cover;
+}
+.ch-img-4 {
+	background-image: url(../img/red-social.png);
+  background-size: 100%;
+  background-size: cover;
+}
+.ch-img-5 {
+	background-image: url(../img/react.png);
+  background-size: 100%;
+  background-size: cover;
 }
 
+.ch-img-6 {
+	background-image: url(../img/uv-care.png);
+  background-size: 100%;
+  background-size: cover;
+}
+.ch-img-7 {
+	background-image: url(../img/loasa.png);
+  background-size: 100%;
+  background-size: cover;
+}
+.ch-img-8 {
+	background-image: url(../img/bombus.png);
+  background-size: 100%;
+  background-size: cover;
+}
+.ch-img-9 {
+	background-image: url(../img/album.png);
+  background-size: 100%;
+  background-size: cover;
+}
 .ch-info h3 {
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: 24px;
+	font-size: 1.5em;
 	margin: 0 15px;
 	padding: 60px 0 0 0;
 	height: 110px;
-	font-family: 'Open Sans', Arial, sans-serif;
-	text-shadow: 
-		0 0 1px #fff, 
+	font-family: 'Indie Flower', cursive;
+	text-shadow:
+		0 0 1px #fff,
 		0 1px 2px rgba(0,0,0,0.3);
 }
 
 .ch-info p {
-	color: #fff;
-	padding: 10px 5px;
-	font-style: italic;
-	margin: 0 30px;
-	font-size: 12px;
 	border-top: 1px solid rgba(255,255,255,0.5);
 }
 
@@ -95,15 +126,14 @@
 	font-style: normal;
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 9px;
+	font-size: 1em;
 	letter-spacing: 1px;
-	padding-top: 4px;
-	font-family: 'Open Sans', Arial, sans-serif;
+	padding-top: 12px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .ch-info p a:hover {
-	color: #fff222;
-	color: rgba(255,242,34, 0.8);
+	color: #FEC301;
 }
 
 .ch-item:hover .ch-info-front {
