@@ -114,12 +114,12 @@ body{
   font-family: 'Indie Flower', cursive;
   text-shadow: 2px 3px 3px #555;
 }
-#contact p{
+/* #contact p{
   padding-top: 1em;
   color: #fff;
   font-size: 2em;
   font-family: 'Raleway', sans-serif;
-}
+} */
 .row2, .row1{
   margin-top: 3em;
 }
@@ -127,4 +127,8 @@ body{
   font-size: 7em;
   color: #fff;
 }
-/*skills*/
+#contact a{
+  font-size: 5em;
+  color: #fff;
+  padding: 0.5em;
+}
