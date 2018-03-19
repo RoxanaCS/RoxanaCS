@@ -48,8 +48,8 @@ body{
   font-family: 'Raleway', sans-serif;
   /* padding: 1% 1% 1% 1%; */
 }
-.ion{
-  font-size: 2em;
+.faIcon{
+  font-size: 1.5em;
   padding-right: 4%;
 }
 #about h2{
@@ -89,6 +89,10 @@ body{
   width: 90%;
   margin-top: 2em;
 }
+.icon{
+  color: #fff;
+  font-size: 7em;
+}
 #skills h2{
   padding-top: 1em;
   color: #fff;
@@ -123,12 +127,12 @@ body{
 .row2, .row1{
   margin-top: 3em;
 }
-.icon{
-  font-size: 7em;
+.f-icon{
+  font-size: 1em;
   color: #fff;
 }
 #contact a{
   font-size: 5em;
   color: #fff;
-  padding: 0.5em;
+  padding: 0.3em;
 }
