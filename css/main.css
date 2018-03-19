@@ -10,10 +10,10 @@ body{
   height: 100vh;
 }
 .navbar{
-/*  background-color: #0AA0A0;*/
   border: none;
   margin-bottom: 0;
   font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
 }
 .navbar-right .nav li a{
   color: #FFFF;
@@ -36,17 +36,17 @@ body{
 }
 .subtitle {
   color: white;
-  /* padding: 0% 4% 1% 0%; */
   padding-bottom: 2%;
   font-size: 1.5em;
   font-family: 'Raleway', sans-serif;
-  /* background-color: green; */
 }
 .btn-info{
   background-color: inherit;
   border: 0.5px solid #ffff;
   font-family: 'Raleway', sans-serif;
-  /* padding: 1% 1% 1% 1%; */
+}
+.btn-info:hover{
+  background-color: inherit;
 }
 .faIcon{
   font-size: 1.5em;
@@ -71,7 +71,7 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 .about a:hover{
-  background-color: #03C5C5;
+  background-color: none;
   color: #fff;
 }
 .titleAbout{
@@ -111,6 +111,15 @@ body{
   font-family: 'Indie Flower', cursive;
   text-shadow: 2px 3px 3px #555;
 }
+.btn-back{
+  margin: 1em;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+}
+.btn-back:hover{
+  background-color: none;
+  border: 1px solid white;
+}
 #contact h2{
   padding-top: 2em;
   color: #fff;
@@ -118,12 +127,12 @@ body{
   font-family: 'Indie Flower', cursive;
   text-shadow: 2px 3px 3px #555;
 }
-/* #contact p{
+#contact p{
   padding-top: 1em;
   color: #fff;
   font-size: 2em;
   font-family: 'Raleway', sans-serif;
-} */
+}
 .row2, .row1{
   margin-top: 3em;
 }

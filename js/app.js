@@ -23,15 +23,15 @@ function cambiar() {
     $('#myCarousel').css('background-color', '#023');
     $('.container-first-section').css('background-color', '#023');
     numero = 2;
+    // } else if (numero === 2) {
+    //   $('#myCarousel').css('background-color', '#03C5C5');
+    //   $('.container-first-section').css('background-color', '#03C5C5');
+    //   numero = 3;
+    // } else if (numero === 3) {
+    //   $('#myCarousel').css('background-color', '#333333');
+    //   $('.container-first-section').css('background-color', '#333333');
+    //   numero = 4;
   } else if (numero === 2) {
-    $('#myCarousel').css('background-color', '#03C5C5');
-    $('.container-first-section').css('background-color', '#03C5C5');
-    numero = 3;
-  } else if (numero === 3) {
-    $('#myCarousel').css('background-color', '#333333');
-    $('.container-first-section').css('background-color', '#333333');
-    numero = 4;
-  } else if (numero === 4) {
     $('#myCarousel').css('background-color', '#0AA0A0');
     $('.container-first-section').css('background-color', '#0AA0A0');
     numero = 0;
@@ -115,4 +115,12 @@ $('.moreScience').on('click', function(e) {
   $('#work-science').show();
   $('#contact').hide();
   $('#sketch-js').hide();
+});
+// atrás section Work
+$('.btn-back').on('click', function(e) {
+  $('#work').show();
+  document.body.style.backgroundColor = '#FEC301';
+  $('.container-first-section').css('background-color', '#FEC301');
+  $('#work-science').hide();
+  $('#work-code').hide();
 });
