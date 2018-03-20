@@ -91,17 +91,9 @@ body{
   width: 90%;
   margin-top: 2em;
 }
-.icon{
-  color: #fff;
-  font-size: 7em;
-}
-.icon:hover{
-  color: #000;
-  font-size: 7em;
-}
 #skills h2{
   padding-top: 1em;
-  color: #ffff;
+  color: #ECC703;
   font-size: 5em;
   font-family: 'Indie Flower', cursive;
   text-shadow: 2px 3px 3px #555;
@@ -155,4 +147,16 @@ body{
   font-size: 5em;
   color: #fff;
   padding: 0.1em;
+}
+/*skills*/
+.icon{
+  color: #fff;
+  margin: 0.5em;
+  font-size: 7.5em;
+}
+.icon:hover{
+  color: #ECC703;
+}
+.icon-one{
+  margin-top: 4em;
 }
