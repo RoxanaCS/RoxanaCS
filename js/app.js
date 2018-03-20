@@ -10,14 +10,14 @@ var change = setInterval(
   'cambiar()', 6010);
 $('.carousel').carousel({
   interval: 6000,
-  pause: 'false'
+  pause: 'false',
 });
 
 var numero = 0;
 function cambiar() {
   if (numero === 0) {
-    $('#myCarousel').css('background-color', '#FEC301');
-    $('.container-first-section').css('background-color', '#FEC301');
+    $('#myCarousel').css('background-color', '#ECC703');
+    $('.container-first-section').css('background-color', '#ECC703');
     numero = 1;
   } else if (numero === 1) {
     $('#myCarousel').css('background-color', '#023');
@@ -41,8 +41,8 @@ function cambiar() {
 $('.aboutMe').on('click', function(e) {
   e.preventDefault();
   clearInterval(change);
-  document.body.style.backgroundColor = '#0AA0A0';
-  $('.container-first-section').css('background-color', '#0AA0A0');
+  document.body.style.backgroundColor = '#023';
+  $('.container-first-section').css('background-color', '#023');
   $('#about').show();
   $('#skills').hide();
   $('#work').hide();
@@ -54,8 +54,8 @@ $('.aboutMe').on('click', function(e) {
 $('.skills').on('click', function(e) {
   e.preventDefault();
   clearInterval(change);
-  document.body.style.backgroundColor = '#03C5C5';
-  $('.container-first-section').css('background-color', '#03C5C5');
+  document.body.style.backgroundColor = '#0AA0A0';
+  $('.container-first-section').css('background-color', '#0AA0A0');
   $('#skills').show();
   $('#about').hide();
   $('#work').hide();
@@ -67,8 +67,10 @@ $('.skills').on('click', function(e) {
 $('.work').on('click', function(e) {
   e.preventDefault();
   clearInterval(change);
-  document.body.style.backgroundColor = '#FEC301';
-  $('.container-first-section').css('background-color', '#FEC301');
+  document.body.style.backgroundColor = '#DCDCDC';
+  $('.container-first-section').css('background-color', '#DCDCDC');
+  $('.work').css('color', '#000');
+  $('.nav-li-c').css('color', '#fff');
   $('#work').show();
   $('#work-code').hide();
   $('#work-science').hide();
@@ -82,6 +84,8 @@ $('.contact').on('click', function(e) {
   clearInterval(change);
   document.body.style.backgroundColor = '#333333';
   $('.container-first-section').css('background-color', '#333333');
+  $('.nav-li').css('color', '#000');
+  $('.contact').css('color', '#fff');
   $('#about').hide();
   $('#skills').hide();
   $('#work').hide();
@@ -93,8 +97,8 @@ $('.contact').on('click', function(e) {
 $('.moreCode').on('click', function(e) {
   e.preventDefault();
   clearInterval(change);
-  document.body.style.backgroundColor = '#FEC301';
-  $('.container-first-section').css('background-color', '#FEC301');
+  document.body.style.backgroundColor = '#ECC703';
+  $('.container-first-section').css('background-color', '#ECC703');
   $('#about').hide();
   $('#skills').hide();
   $('#work').hide();
@@ -119,8 +123,10 @@ $('.moreScience').on('click', function(e) {
 // atrás section Work
 $('.btn-back').on('click', function(e) {
   $('#work').show();
-  document.body.style.backgroundColor = '#FEC301';
-  $('.container-first-section').css('background-color', '#FEC301');
+  document.body.style.backgroundColor = '#665C5C';
+  $('.container-first-section').css('background-color', '#665C5C');
   $('#work-science').hide();
   $('#work-code').hide();
 });
+
+// animaciones Skills

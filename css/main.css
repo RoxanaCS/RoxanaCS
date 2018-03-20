@@ -2,7 +2,6 @@ body{
   padding: 0;
   margin: 0;
 }
-
 #myCarousel{
   background-color: #0AA0A0;
   color: #FFFF;
@@ -19,17 +18,18 @@ body{
   color: #FFFF;
 }
 .navbar-right .nav li a:hover{
-  color: #000;
   text-decoration: underline;
-
+  text-shadow: 2px 3px 3px #555;
+  color: #FFF;
 }
 .container-first-section{
   background-color: #0AA0A0;
 }
 .titleHome{
   color: white;
-  padding:10% 5% 1% 10%;
-  font-size: 7em;
+  /* padding:10% 5% 1% 10%; */
+  padding-top: 10%;
+  font-size: 6em;
   font-family: 'Indie Flower', cursive;
   text-shadow: 2px 3px 3px #555;
   /* background-color: green; */
@@ -66,13 +66,15 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 .btn-about{
-  background-color: #ffff;
-  color: #0AA0A0;
+  background-color: inherit;
+  border: 1px solid #ffff;
+  color: #ffff;
   font-family: 'Raleway', sans-serif;
+  margin-bottom: 1em;
 }
-.about a:hover{
-  background-color: none;
-  color: #fff;
+.boxAbout a:hover{
+  color: #ADADAD;
+  border: 1px solid #ADADAD;
 }
 .titleAbout{
   font-size: 4em;
@@ -93,12 +95,21 @@ body{
   color: #fff;
   font-size: 7em;
 }
+.icon:hover{
+  color: #000;
+  font-size: 7em;
+}
 #skills h2{
   padding-top: 1em;
-  color: #fff;
-  font-size: 4em;
+  color: #ffff;
+  font-size: 5em;
   font-family: 'Indie Flower', cursive;
   text-shadow: 2px 3px 3px #555;
+}
+.dev-icon{
+  width: 10em;
+  /* margin-top: 1.5em; */
+  /* padding-bottom: 1em; */
 }
 .imgFigcaption{
   font-size: 3em !important;
@@ -107,7 +118,7 @@ body{
 #work-code h2, #work-science h2{
   padding-top: 1em;
   color: #fff;
-  font-size: 4em;
+  font-size: 5em;
   font-family: 'Indie Flower', cursive;
   text-shadow: 2px 3px 3px #555;
 }
@@ -123,12 +134,12 @@ body{
 #contact h2{
   padding-top: 2em;
   color: #fff;
-  font-size: 4em;
+  font-size: 5em;
   font-family: 'Indie Flower', cursive;
   text-shadow: 2px 3px 3px #555;
 }
 #contact p{
-  padding-top: 1em;
+  padding-top: 0.5em;
   color: #fff;
   font-size: 2em;
   font-family: 'Raleway', sans-serif;
@@ -143,5 +154,5 @@ body{
 #contact a{
   font-size: 5em;
   color: #fff;
-  padding: 0.3em;
+  padding: 0.1em;
 }

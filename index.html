@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main-skills.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/common.css" />
     <link rel="stylesheet" type="text/css" href="css/style-work.css" />
@@ -32,11 +33,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right " id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a id="home" href="index.html">Home <span class="sr-only">(current)</span></a></li>
-                <li><a class="aboutMe" href="#">About</a></li>
-                <li><a class="skills" href="#">Skills</a></li>
-                <li><a class="work" href="#">Work</a></li>
-                <li><a class="contact" href="#">Contact</a></li>
+                <li><a id="home" class="nav-li nav-li-c" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                <li><a class="nav-li nav-li-c aboutMe" href="#">About</a></li>
+                <li><a class="nav-li nav-li-c skills" href="#">Skills</a></li>
+                <li><a class="nav-li work" href="#">Work</a></li>
+                <li><a class="contact nav-li-c" href="#">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div>
@@ -49,8 +50,8 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <!-- <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li> -->
           </ol>
           <!-- Carousel items -->
           <div class="carousel-inner">
@@ -120,38 +121,76 @@
             <h2 class="text-center">Technical Skills</h2>
           </div>
         </div>
-        <div class="row row1">
-          <div class="col-lg-offset-1 col-lg-2 col-md-offset-1 col-md-2 col-xs-offset-0 col-xs-12">
-            <i class="devicon-html5-plain-wordmark icon"></i>
-          </div>
-          <div class="col-lg-2 col-md-2 col-xs-12">
-            <i class="devicon-javascript-plain icon"></i>
-          </div>
-          <div class="col-lg-2 col-md-2 col-xs-12">
-            <i class="devicon-css3-plain-wordmark icon"></i>
-          </div>
-          <div class="col-lg-2 col-md-2 col-xs-12">
-            <i class="devicon-bootstrap-plain-wordmark icon"></i>
-          </div>
-          <div class="col-md-2 col-xs-12">
-            <i class="devicon-jquery-plain-wordmark icon"></i>
+        <div class="row">
+          <div class="col-xs-12 hidden-md hidden-lg">
+            <img class="dev-icon center-block" src="devicon-master\icons\html5\html5-original-wordmark.svg" alt="html5">
           </div>
         </div>
-        <div class="row row2">
-          <div class="col-lg-offset-1 col-lg-2 col-md-offset-1 col-md-2 col-xs-offset-0 col-xs-12">
-            <i class="devicon-react-original-wordmark icon"></i>
+        <div class="row">
+          <div class="col-xs-12 hidden-md hidden-lg">
+            <img class="dev-icon center-block" src="devicon-master\icons\nodejs\nodejs-original-wordmark.svg" alt="html5">
           </div>
-          <div class="col-lg-2 col-md-2 col-xs-12">
-            <i class="devicon-nodejs-plain-wordmark icon"></i>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 hidden-md hidden-lg">
+            <img class="dev-icon center-block" src="devicon-master\icons\jquery\jquery-original-wordmark.svg" alt="html5">
           </div>
-          <div class="col-lg-2 col-md-2 col-xs-12">
-            <i class="devicon-git-plain-wordmark icon"></i>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 hidden-md hidden-lg">
+            <img class="dev-icon center-block" src="devicon-master\icons\css3\css3-original-wordmark.svg" alt="html5">
           </div>
-          <div class="col-lg-2 col-md-2 col-xs-12">
-            <i class="devicon-github-plain-wordmark icon"></i>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 hidden-md hidden-lg">
+            <img class="dev-icon center-block" src="devicon-master\icons\bootstrap\bootstrap-plain-wordmark.svg" alt="html5">
           </div>
-          <div class="col-lg-2 col-md-2 col-xs-12">
-            <i class="devicon-sass-original icon"></i>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 hidden-md hidden-lg">
+            <img class="dev-icon center-block" src="devicon-master\icons\react\react-original-wordmark.svg" alt="html5">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 hidden-md hidden-lg">
+            <img class="dev-icon center-block" src="devicon-master\icons\github\github-original-wordmark.svg" alt="html5">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 hidden-md hidden-lg">
+            <img class="dev-icon center-block" src="devicon-master\icons\git\git-original-wordmark.svg" alt="html5">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 hidden-md hidden-lg">
+            <img class="dev-icon center-block" src="devicon-master\icons\javascript\javascript-original.svg" alt="html5">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 hidden-md hidden-lg">
+            <img class="dev-icon center-block" src="devicon-master\icons\sass\sass-original.svg" alt="html5">
+          </div>
+        </div>
+        <div class="row">
+          <div class="hidden-xs">
+            <div id="wrap">
+              <div id="showcase" class="noselect">
+                <img class="cloud9-item" src="devicon-master\icons\html5\html5-original-wordmark.svg" alt="html5">
+                <img class="cloud9-item" src="devicon-master\icons\nodejs\nodejs-original-wordmark.svg" alt="js">
+                <img class="cloud9-item" src="devicon-master\icons\jquery\jquery-original-wordmark.svg" alt="jquery">
+                <img class="cloud9-item" src="devicon-master\icons\css3\css3-original-wordmark.svg" alt="css3">
+                <img class="cloud9-item" src="devicon-master\icons\bootstrap\bootstrap-plain-wordmark.svg" alt="bootstrap">
+                <img class="cloud9-item" src="devicon-master\icons\react\react-original-wordmark.svg" alt="node">
+                <img class="cloud9-item" src="devicon-master\icons\github\github-original-wordmark.svg" alt="github">
+                <img class="cloud9-item" src="devicon-master\icons\git\git-original-wordmark.svg" alt="git">
+                <img class="cloud9-item" src="devicon-master\icons\javascript\javascript-original.svg" alt="node">
+                <img class="cloud9-item" src="devicon-master\icons\sass\sass-original.svg" alt="sass">
+              </div>
+            <div class="nav-b noselect">
+            <button class="left"> ← </button>
+            <button class="right"> → </button>
+            </div>
+            </div>
           </div>
         </div>
       </div>
@@ -341,6 +380,9 @@
         </div>
       </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js\jquery.cloud9carousel.js"></script>
+    <script src="js\jquery.reflection.js"></script>
+    <script src="js/app-skills.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
     <script src="js/app.js"></script>
