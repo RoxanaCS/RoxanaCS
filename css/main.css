@@ -29,7 +29,7 @@ body{
   color: white;
   /* padding:10% 5% 1% 10%; */
   padding-top: 10%;
-  font-size: 6em;
+  font-size: 5em;
   font-family: 'Indie Flower', cursive;
   text-shadow: 2px 3px 3px #555;
   /* background-color: green; */
@@ -94,15 +94,15 @@ body{
 #skills h2{
   padding-top: 1em;
   color: #ECC703;
-  font-size: 5em;
+  font-size: 4em;
   font-family: 'Indie Flower', cursive;
   text-shadow: 2px 3px 3px #555;
 }
-.dev-icon{
+/* .dev-icon{
   width: 10em;
   /* margin-top: 1.5em; */
   /* padding-bottom: 1em; */
-}
+
 .imgFigcaption{
   font-size: 3em !important;
   font-family: 'Indie Flower', cursive !important
@@ -152,7 +152,7 @@ body{
 .icon{
   color: #fff;
   margin: 0.5em;
-  font-size: 7.5em;
+  font-size: 7em;
 }
 .icon:hover{
   color: #ECC703;
