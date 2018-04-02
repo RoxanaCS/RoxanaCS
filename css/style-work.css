@@ -56,13 +56,13 @@
 .ch-img-1 {
 	background-image: url(../img/trivia.png);
   background-size: 100%;
-  background-size: cover;
+  background-size: contain;
 }
 
 .ch-img-2 {
 	background-image: url(../img/geo.png);
   background-size: 100%;
-  background-size: cover;
+  background-size: contain;
 }
 
 .ch-img-3 {
@@ -78,7 +78,7 @@
 .ch-img-5 {
 	background-image: url(../img/react.png);
   background-size: 100%;
-  background-size: cover;
+  background-size: contain;
 }
 
 .ch-img-6 {

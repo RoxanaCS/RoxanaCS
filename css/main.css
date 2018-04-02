@@ -103,7 +103,7 @@ body{
   /* margin-top: 1.5em; */
   /* padding-bottom: 1em; */
 
-.imgFigcaption{
+.imgFigcaption1, .imgFigcaption2{
   font-size: 3em !important;
   font-family: 'Indie Flower', cursive !important
 }

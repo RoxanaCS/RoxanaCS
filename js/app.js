@@ -94,6 +94,21 @@ $('.contact').on('click', function(e) {
   $('#contact').show();
   $('#sketch-js').hide();
 });
+$('.moreCode').hover(function() {
+  $(this).css('filter', 'brightness(0.1)');
+  $('.b-right').append('<h2 class="imgFigcaption1" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.5em; font-weight: bolder; text-align: center; color: #FFF">Code</h2>');
+}, function() {
+  $(this).css('filter', 'brightness(1)');
+  $('.imgFigcaption1').css('color', 'transparent');
+});
+$('.moreScience').hover(function() {
+  $(this).css('filter', 'brightness(0.1)');
+  $('.b-left').append('<h2 class="imgFigcaption2" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.5em; font-weight: bolder; text-align: center; color: #FFF">Science</h2>');
+}, function() {
+  $(this).css('filter', 'brightness(1)');
+  $('.imgFigcaption2').css('color', 'transparent');
+});
+
 $('.moreCode').on('click', function(e) {
   e.preventDefault();
   clearInterval(change);
