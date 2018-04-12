@@ -5,6 +5,9 @@ $(document).ready(function() {
   $('#work-code').hide();
   $('#work-science').hide();
   $('#contact').hide();
+  $('.navbar-nav li a').click(function(event) {
+    $('.navbar-collapse').collapse('hide');
+  });
 });
 var change = setInterval(
   'cambiar()', 6010);
@@ -42,6 +45,8 @@ $('.aboutMe').on('click', function(e) {
   $('#work-science').hide();
   $('#contact').hide();
   $('#sketch-js').hide();
+  $('.aboutMe').css('color', '#000');
+  $('.nav-li-a').css('color', '#fff');
 });
 $('.skills').on('click', function(e) {
   e.preventDefault();
@@ -55,6 +60,8 @@ $('.skills').on('click', function(e) {
   $('#work-science').hide();
   $('#contact').hide();
   $('#sketch-js').hide();
+  $('.skills').css('color', '#000');
+  $('.nav-li-s').css('color', '#fff');
 });
 $('.work').on('click', function(e) {
   e.preventDefault();
@@ -100,6 +107,7 @@ $('.moreCode').on('click', function(e) {
   $('#contact').hide();
   $('#sketch-js').hide();
 });
+
 $('.moreScience').on('click', function(e) {
   e.preventDefault();
   clearInterval(change);
