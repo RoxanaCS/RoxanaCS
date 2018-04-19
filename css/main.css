@@ -128,20 +128,20 @@ body{
   border: 1px solid white;
 }
 #contact h2{
-  padding-top: 2em;
+  padding-top: 1.5em;
   color: #fff;
   font-size: 5em;
   font-family: 'Indie Flower', cursive;
   text-shadow: 2px 3px 3px #555;
 }
 #contact p{
-  padding-top: 0.5em;
+  padding-top: 0.7em;
   color: #fff;
   font-size: 2em;
   font-family: 'Raleway', sans-serif;
 }
 .row2, .row1{
-  margin-top: 3em;
+  margin-top: 3.5em;
 }
 .f-icon{
   font-size: 0.8em;
