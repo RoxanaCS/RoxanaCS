@@ -10,9 +10,9 @@ $(document).ready(function() {
   });
 });
 var change = setInterval(
-  'cambiar()', 6010);
+  'cambiar()', 5010);
 $('.carousel').carousel({
-  interval: 6000,
+  interval: 5000,
   pause: 'false',
 });
 
