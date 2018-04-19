@@ -10,7 +10,7 @@ $(document).ready(function() {
   });
 });
 var change = setInterval(
-  'cambiar()', 5010);
+  'cambiar()', 5020);
 $('.carousel').carousel({
   interval: 5000,
   pause: 'false',
